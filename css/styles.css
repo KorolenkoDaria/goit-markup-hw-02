@@ -1,6 +1,112 @@
 body{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 ol, ul{
     list-style-type: none;
+}
+:root{
+    --primaryBrand: #4D5AE5;
+    --pressedState: #404BBF;
+    --mainColor: #2E2F42;
+    --successColor: #31D0AA;
+    --textColor: #434455;
+    --subtleText: #8E8F99;
+    --accentColor: #E7E9FC;
+    --lightBg: #F4F4FD;
+    --white: #FFFFFF;
+    --modalBg: #FCFCFC;
+}
+.logo{
+text-decoration: none;
+}
+.nav-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--mainColor);
+}
+.address-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--textColor);
+}
+.hero{
+    background-color: var(--mainColor);
+}
+.hero-tittle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+.btn-tittle{
+    background: var(--primaryBrand);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color:var(--white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.tittle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--mainColor);
+}
+.subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--mainColor);
+}
+.subtitle-text{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;   
+letter-spacing: 0.02em;
+color: var(--textColor);
+}
+footer{
+    background-color: var(--mainColor);
+}
+footer>p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--lightBg);
+}
+.filter-btn{
+    background-color: var(--lightBg);
+    border: 1px solid var(--accentColor);
+    border-radius: 4px;
+    color: var(--primaryBrand);
+    cursor: pointer;
+}
+.filter-btn:hover{
+    background: var(--pressedState);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border:none;
+    color:var(--white);
 }
