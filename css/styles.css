@@ -1,8 +1,7 @@
 body{
     font-family: Roboto, sans-serif;
-}
-ol, ul{
-    list-style-type: none;
+    color: var(--textColor);
+    background-color: var(--white);
 }
 :root{
     --primaryBrand: #4D5AE5;
@@ -17,34 +16,48 @@ ol, ul{
     --modalBg: #FCFCFC;
 }
 .logo{
-text-decoration: none;
-font-family: 'Raleway' sans-serif;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.16;
-color: var(--mainColor);
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--pressedState);
 }
-.logo>span{
-    color: var(--primaryBrand);
+.link{
+    text-decoration: none;
 }
-.nav-link{
+.logo-accent{
+    color: var(--mainColor);
+}
+.list{
+    list-style: none;
+}
+.list-item-link{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
     color: var(--mainColor);
 }
-.address-link{
+.list-item-link:hover{
+    color: var(--pressedState);
+}
+.contacts{
     font-style: normal;
+}
+.address-link{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--textColor);
+}
+.address-link:hover{
+    color: var(--pressedState);
 }
 .hero{
     background-color: var(--mainColor);
@@ -71,6 +84,10 @@ color: var(--mainColor);
     border: none;
     cursor: pointer;
 }
+btn-tittle:hover,
+btn-tittle:focus{
+    background-color:var(--pressedState);
+}
 .tittle{
     font-style: normal;
     font-weight: 700;
@@ -85,13 +102,13 @@ color: var(--mainColor);
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--mainColor);
 }
 .subtitle-text{
     font-size: 16px;
-    line-height: 1.5;   
+    line-height: 1.2;   
     letter-spacing: 0.02em;
     color: var(--textColor);
 }
