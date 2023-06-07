@@ -69,6 +69,7 @@ color: var(--mainColor);
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
+    cursor: pointer;
 }
 .tittle{
     font-style: normal;
