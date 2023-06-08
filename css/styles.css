@@ -75,9 +75,8 @@ color: var(--primaryBrand);
 }
 .btn-tittle{
     background: var(--primaryBrand);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     color:var(--white);
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -143,14 +142,12 @@ color: var(--primaryBrand);
     letter-spacing: 0.04em;
     background-color: var(--lightBg);
     border: 1px solid var(--accentColor);
-    border-radius: 4px;
     color: var(--primaryBrand);
     cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus{
     background: var(--pressedState);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border:none;
     color:var(--white);
 }
