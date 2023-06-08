@@ -57,7 +57,8 @@ color: var(--primaryBrand);
     text-decoration: none;
     color: var(--textColor);
 }
-.address-link:hover{
+.address-link:hover,
+.address-link:focus {
     color: var(--pressedState);
 }
 .hero{
@@ -93,7 +94,7 @@ color: var(--primaryBrand);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -113,10 +114,16 @@ color: var(--primaryBrand);
     letter-spacing: 0.02em;
     color: var(--textColor);
 }
-footer{
+.team{
+    background-color: var(--lightBg);
+}
+.team-list-item{
+    background-color: var(--white);
+}
+.footer{
     background-color: var(--mainColor);
 }
-footer>p{
+.footer-text{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -124,14 +131,24 @@ footer>p{
     letter-spacing: 0.02em;
     color: var(--lightBg);
 }
+.logo-accent-light{
+    color: var(--lightBg);
+}
 .filter-btn{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: var(--lightBg);
     border: 1px solid var(--accentColor);
     border-radius: 4px;
     color: var(--primaryBrand);
     cursor: pointer;
 }
-.filter-btn:hover{
+.filter-btn:hover,
+.filter-btn:focus{
     background: var(--pressedState);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border:none;
